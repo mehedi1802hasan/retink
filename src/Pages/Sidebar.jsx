@@ -22,13 +22,13 @@ const Sidebar = () => {
       {/* Sidebar content here */}
       <div className='space-y-5'>
 
-      <li className='text-red-500'><a><FiFramer/></a></li>
-      <li><a><FaHome/></a></li>
-      <li><a><BiBookContent/></a></li>
+      <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-700 text-red-500'><a><FiFramer/></a></li>
+      <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-700'><a><FaHome/></a></li>
+      <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-700'><a><BiBookContent/></a></li>
       </div>
       <div className='space-y-5'>
-      <li><a><CiSettings/></a></li>
-      <li><a><IoIosLogOut/></a></li>
+      <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-700'><a><CiSettings/></a></li>
+      <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-700'><a><IoIosLogOut/></a></li>
       </div>
     </ul>
   
