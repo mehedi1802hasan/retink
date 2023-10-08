@@ -9,7 +9,7 @@ const MostPopularTools = () => {
     return (
         <div>
             <div className='my-3 p-3'>
-            <h3 className='font-semibold text-xl '>Most Popular Tools</h3>
+            <h3 className='font-semibold text-xl '>Most Popular Tools.</h3>
              <p className='text-base'>Explore the trending tools to create your copies fast</p>
             </div>
       <div className='bg-[#F4F3F6] p-3 mb-3'>

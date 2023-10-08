@@ -7,7 +7,7 @@ import { RxCross2 } from 'react-icons/rx';
 
 const Navbar = () => {
     return (
-      <div className='flex justify-between  items-center '>
+      <div className='flex justify-between  items-center  '>
         <div className='flex justify-between gap-32'>
              <div className='relative ml-2'> <input placeholder='Search for templates project etc' className='w-[500px] p-3 mt-1  border-2' type="text" /><span className='absolute right-2 top-5  '><p className='flex items-center justify-between gap-7'><AiOutlineMenuUnfold/> <RxCross2/></p> </span></div>
         <div className='gap-10 flex mt-2'>

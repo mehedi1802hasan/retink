@@ -7,7 +7,7 @@ const Banner = () => {
       className="bg-cover bg-center m-2 rounded-3xl p-5"
       style={{
         backgroundImage: `url('https://i.ibb.co/hZGyvcJ/Untitled-design-2.png')`,
-        backgroundColor: '#FF0000', // Red background color
+      // Red background color
       }}
     >
       <div className="flex justify-between items-center text-black p-5">
